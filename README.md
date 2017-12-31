@@ -150,7 +150,8 @@ it wraps. Oh boy let's keep writing to make sure this is long enough to actually
   <dd>내용<em>tags</em>.</dd>
 </dl>
 
-## 수평선
+## 수평선 ##
+
 "-" 3개 이상  (얇은)
 ---
 "*" 3개 이상 (두꺼운)
