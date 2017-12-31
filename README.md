@@ -102,10 +102,22 @@ to actually wrap for everyone. Oh, you can *put* **굵게** into a blockquote.
 
 코드 강조
 -----------------------------------
+<pre>
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
 ```
-\`\`\` + 언어명 : 언어 코드 강조 됨
-\`\`\` : 주석 처리됨
+
+```python
+s = "Python syntax highlighting"
+print s
 ```
+ 
+```
+No language indicated, so no syntax highlighting. 
+But let's throw in a <b>tag</b>.
+```
+</pre>
 
 ```javascript
 var s = "JavaScript syntax highlighting";
