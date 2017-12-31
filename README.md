@@ -199,9 +199,9 @@ ___
 
 [2. 인라인 스타일 + 제목](https://www.google.com "Google's Homepage")
 
-[3. 참조 스타일][Arbitrary case-insensitive reference text]
+[3. 참조 스타일][arbitrary case-insensitive reference text]
 
-[4. 참조 스타일][Arbitrary]
+[4. 참조 스타일][arbitrary]
 
 [5. 저장소 파일 상대 경로 1 : 다른 브런치](../blob/master/LICENSE)
 
@@ -216,7 +216,7 @@ ___
 10. <URL> :  <http://www.example.com> 
 
 [arbitrary case-insensitive reference text]: https://www.mozilla.org
-[arbitrary: https://www.mozilla2.org
+[arbitrary]: https://www.mozilla2.org
 [1]: http://slashdot.org
 [link text itself]: http://www.reddit.com
 
