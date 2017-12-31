@@ -99,8 +99,7 @@ to actually wrap for everyone. Oh, you can *put* **굵게** into a blockquote.
 코드 강조
 -----------------------------------
 
->
-> 3개 + <언어명> : 언어 코드 강조 됨 
+> 3개 + <언어명> : 언어 코드 강조 됨
 > 3개 : 주석 처리됨
 
 ```javascript
@@ -181,13 +180,21 @@ ___
 ```
 
 [1-1. 인라인 스타일 link](https://www.google.com)
+
 [1-2. 인라인 스타일 + 제목](https://www.google.com "Google's Homepage")
+
 [2. 참조 스타일(공백가능)][alias url]
+
 [3-1. 저장소 파일 상대 경로 1 : 다른 브런치](../blob/master/LICENSE)
+
 [3-2. 저장소 파일 상대 경로 2 : 자신브런치](README.md)
+
 [4. 참조 스타일 숫자][1]
+
 5. 빈 채로두고 링크 텍스트 이용 *괄호 지정 없을시 [link text itself].
+
 6. URL : http://www.example.com 
+
 7. <URL> :  <http://www.example.com> 
 
 [alias url]: https://www.mozilla.org
@@ -197,9 +204,11 @@ ___
 
 이미지
 -----------------------------------
+> ``` 
 > ![alt text](url) : 경로 직접 지정
 > ![alt text][별칭] : 별칭 참조
 > 서버에 이미지를 올려 놓고 참조 경로를 이용함
+> ```
 
 ```
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "마우스오버 텍스트1")
