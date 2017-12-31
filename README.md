@@ -102,10 +102,10 @@ to actually wrap for everyone. Oh, you can *put* **굵게** into a blockquote.
 
 코드 강조
 -----------------------------------
-> ```
-> 3개 + 언어명 : 언어 코드 강조 됨
-> 3개 : 주석 처리됨
-> ```
+```
+\`\`\` + 언어명 : 언어 코드 강조 됨
+\`\`\` : 주석 처리됨
+```
 
 ```javascript
 var s = "JavaScript syntax highlighting";
