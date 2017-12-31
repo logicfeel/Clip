@@ -4,11 +4,11 @@
 -----------------------------------  
 
 ```
-# H1    or  # 제목 #      or 타이틀 다음줄 ===  (*화면 맞출 때)
-## H2   or  ## 제목 ##    or 타이틀 다음줄 ---  (*화면 맞출 때)
-### H3  or  ### 제목 ###
-#### H4 or  #### 제목 ####
-##### H5 or  ##### 제목 #####
+# H1      or  # 제목 #      or 타이틀 다음줄 ===  (*화면 맞출 때)
+## H2     or  ## 제목 ##    or 타이틀 다음줄 ---  (*화면 맞출 때)
+### H3    or  ### 제목 ###
+#### H4   or  #### 제목 ####
+##### H5  or  ##### 제목 #####
 ###### H6 or  ###### 제목 ######
 ```  
 # H1 (헤더1)
@@ -24,7 +24,7 @@
 ```
 ** 굵게(강조)**
 ```
-** 굵게(강조)**
+**굵게(강조)**
 
 ```
 _이텔릭(언더바)_
@@ -39,7 +39,9 @@ _이텔릭(언더바)_
 리스트 : 텝 기준으로 정렬됨
 -----------------------------------
 
-> tab + 숫자 + +, -, * 조합하여 구성
+> tab 은 깊이
+> 숫자 : 순서 목록
+> +, -, * : 비순서 목록  (차이점은 없음, 보기 좋은것으로 알아서 사용)
 
 1. 순서 목록1 (숫자)
 2. 순서 목록2 
@@ -64,13 +66,14 @@ _이텔릭(언더바)_
 
 블럭
 -----------------------------------
-
+줄별 지정
 > 블럭 첫줄
 > 블럭 둘째줄
 
-제목
+긴줄 지정
 > 긴줄 This is a very long line that will still be quoted properly when 
-it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote. 
+it wraps. Oh boy let's keep writing to make sure this is long enough 
+to actually wrap for everyone. Oh, you can *put* **굵게** into a blockquote. 
 
 
 테이블
@@ -81,12 +84,12 @@ it wraps. Oh boy let's keep writing to make sure this is long enough to actually
 | 왼쪽정렬          | 중앙정렬      | 오른쪽 정렬 |
 | *이텔릭*         | **강조**     |   `배경` |
 
-테이블내
-```
-*이텔릭*   
-**강조** 
-`배경`
-```
+> 테이블 내부
+> ```
+> *이텔릭*   
+> **강조** 
+> `배경`
+> ```
 
 코드 강조
 -----------------------------------
