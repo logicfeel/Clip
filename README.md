@@ -19,7 +19,7 @@
 ```
 #### H4
 ``` 
-###$ H4
+#### H4
 
 ```
 ##### H5
@@ -40,12 +40,12 @@ _이텔릭_
 
 ## 리스트
 1. 목록1
-.. 서브
+..서브
 
 1. 목록2
-... 내용들1
-... 내용들2
-....... 내용들 3
+...내용들1
+...내용들2
+.......내용들 3
 
 
 
@@ -126,11 +126,11 @@ it wraps. Oh boy let's keep writing to make sure this is long enough to actually
 
 ## 내부 HTML
 <dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
+  <dt>정의 목록</dt>
+  <dd>내용 </dd>
 
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+  <dt>정의 목록</dt>
+  <dd>내용<em>tags</em>.</dd>
 </dl>
 
 ## 수평선
