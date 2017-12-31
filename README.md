@@ -79,7 +79,7 @@ to actually wrap for everyone. Oh, you can *put* **굵게** into a blockquote.
 >> 내부2
 >> 내부2
 >>> 내부 3
->>> 내부 3
+>>> 내부 3  * 줄어들어서 표현은 안됨
 
 > 내부1
 
@@ -87,7 +87,7 @@ to actually wrap for everyone. Oh, you can *put* **굵게** into a blockquote.
 -----------------------------------
 
 | Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
+|---------------|:-------------:| -----:|
 | 왼쪽정렬          | 중앙정렬      | 오른쪽 정렬 |
 | *이텔릭*         | **강조**     |   `배경` |
 
