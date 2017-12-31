@@ -101,10 +101,9 @@ to actually wrap for everyone. Oh, you can *put* **굵게** into a blockquote.
 코드 강조
 -----------------------------------
 
-```
-` 3개 + 언어명 : 언어 코드 강조 됨 
-` 3개 : 주석 처리됨
-```
+>
+> 3개 + 언어명 : 언어 코드 강조 됨 
+> 3개 : 주석 처리됨
 
 ```javascript
 var s = "JavaScript syntax highlighting";
@@ -197,14 +196,23 @@ ___
 ```
 
 [1. 인라인 스타일 link](https://www.google.com)
+
 [2. 인라인 스타일 + 제목](https://www.google.com "Google's Homepage")
+
 [3. 참조 스타일][Arbitrary case-insensitive reference text]
+
 [4. 참조 스타일][Arbitrary]
+
 [5. 저장소 파일 상대 경로 1 : 다른 브런치](../blob/master/LICENSE)
+
 [6. 저장소 파일 상대 경로 2 : 자신브런치](README.md)
+
 [7. 참조 스타일 숫자][1]
+
 8. 빈 채로두고 링크 텍스트 이용  [link text itself].
+
 9. URL : http://www.example.com 
+
 10. <URL> :  <http://www.example.com> 
 
 [arbitrary case-insensitive reference text]: https://www.mozilla.org
