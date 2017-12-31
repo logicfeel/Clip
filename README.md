@@ -1,16 +1,41 @@
 # Clip > Md_Style
 
-## 헤더
+## 헤더  
+```
 # H1
+```  
+# H1
+
+```
 ## H2
+```  
+## H2
+
+```
 ### H3
+``` 
+### H3
+
+```
 #### H4
+``` 
+###$ H4
+
+```
 ##### H5
+``` 
+##### H5
+
+```
+###### H6
+``` 
 ###### H6
 
 ## 강조
 ** 굵게(강조)**
+
 _이텔릭_
+
 ~~취소선~~
 
 ## 리스트
@@ -43,7 +68,6 @@ URL 또는 괄호 <  주소 >.
 http://www.example.com or <http://www.example.com> and sometimes 
 example.com (but not on Github, for example).
 
-Some text to show that the reference links can follow later.
 
 [arbitrary case-insensitive reference text]: https://www.mozilla.org
 [arbitrary]: https://www.mozilla2.org
@@ -87,7 +111,7 @@ But let's throw in a <b>tag</b>.
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
 | 왼쪽정렬          | 중앙정렬      | 오른쪽 정렬 |
-| *이텔릭*         | **강조**     |   '배경' |
+| *이텔릭*         | **강조**     |   `배경` |
 
 
 ## 블럭
@@ -116,5 +140,10 @@ or
 or
 ___
 
-## 줄바꿈
-엔터
+## 줄바꿈 : 엔터
+여기에 우리가 시작할 줄이 있습니다.
+
+이 줄은 위의 줄과 두 줄의 줄 바꿈으로 구분되어 별도의 단락이 됩니다.
+
+이 줄은 또한 별도의 단락을 시작하지만 ... 
+이 줄은 하나의 줄 바꿈으로 구분되므로 동일한 단락 의 별도 줄입니다 .
