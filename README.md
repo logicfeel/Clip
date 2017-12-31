@@ -36,11 +36,20 @@
 "-" 3개 위에 타이틀 (H2 와 같은 효과)
 ---
 
-## 강조
+## 강조 ##
+```
+** 굵게(강조)**
+```
 ** 굵게(강조)**
 
+```
+_이텔릭_
+```
 _이텔릭_
 
+```
+~~취소선~~
+```
 ~~취소선~~
 
 ## 리스트
@@ -70,6 +79,25 @@ _이텔릭_
         2. 순서 2
             + 비순서 1
             + 비순서 2
+
+## 블럭
+
+> 블럭 첫줄
+> 블럭 둘째줄
+
+제목
+
+> 긴줄 This is a very long line that will still be quoted properly when 
+it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote. 
+
+
+## 테이블
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| 왼쪽정렬          | 중앙정렬      | 오른쪽 정렬 |
+| *이텔릭*         | **강조**     |   `배경` |
+
+
 
 ## 링크
 [인라인 스타일 link](https://www.google.com)
@@ -129,24 +157,30 @@ But let's throw in a <b>tag</b>.
 ```
 
 
-## 테이블
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| 왼쪽정렬          | 중앙정렬      | 오른쪽 정렬 |
-| *이텔릭*         | **강조**     |   `배경` |
-
-
-## 블럭
-
-> 블럭 첫줄
-> 블럭 둘째줄
-
-제목
-
-> 긴줄 This is a very long line that will still be quoted properly when 
-it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote. 
-
 ## 내부 HTML
+```
+<dl>
+  <dt>정의 목록</dt>
+  <dd>내용 </dd>
+
+  <dt>정의 목록</dt>
+  <dd>내용<em>tags</em>.</dd>
+</dl>
+<dl>
+  <dt>정의 목록</dt>
+  <dd>내용 </dd>
+
+  <dt>정의 목록</dt>
+  <dd>내용<em>tags</em>.</dd>
+</dl>
+```
+<dl>
+  <dt>정의 목록</dt>
+  <dd>내용 </dd>
+
+  <dt>정의 목록</dt>
+  <dd>내용<em>tags</em>.</dd>
+</dl>
 <dl>
   <dt>정의 목록</dt>
   <dd>내용 </dd>
@@ -156,10 +190,10 @@ it wraps. Oh boy let's keep writing to make sure this is long enough to actually
 </dl>
 
 ## 수평선 ##
-
-"*" 3개 이상 (두꺼운)
+```
+***  또는 ___   : 3개 이상
+```
 ***
-"_" 3개 이상 (두꺼운)
 ___
 
 
