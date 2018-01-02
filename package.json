@@ -1,0 +1,19 @@
+{
+  "name": "clip-npm",
+  "version": "1.0.0",
+  "description": "- NPM : NPM 및 관련 패키지 사용법\r     + NPM 사용법\r     + Bower 사용법\r     + Gulp 사용법\r     + Handlebars 사용법",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/logicfeel/Clip.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/logicfeel/Clip/issues"
+  },
+  "homepage": "https://github.com/logicfeel/Clip#readme"
+}
