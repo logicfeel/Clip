@@ -8,6 +8,7 @@ npm install gulp --save         // 종속성 지정?
 ```
 
 - gulpFile.js : 기본 실행 파일명
+- https://gulpjs.org/  : API 설명서
 
 ## 주요 API
 
@@ -42,10 +43,10 @@ gulp.src(`folder`).pipe(`dist`)   : 파이프 (연결)
     - gulp-minify()     : 파일 최소화
     - gulp-sass()       : SASS CSS 컴파일
     - gulp-rename()     : 파일명 변경
-> 사용법 : 완료
+		+ 사용법 : 완료
     - gulp-repalce()    : 교체
     - gulp-sourcemaps() : 파일 지도 (구조) 파일 만들기
-> 사용법 : TODO
+		+ 사용법 : TODO
     - gulp-if()         : 조건문
 
 gulp.src
@@ -71,8 +72,8 @@ gulp.dest
 디렉토리에 파일 쓰기
 
 > **문법**
-> gulp.dest(path[, options])
-- path : String | Function  (*함수기능을 확인 필요)
+> gulp.dest(`path`[, `options`])
+- `path` : `String` | `Function`  (*함수기능을 확인 필요)
 
     + glob 세부 정의 가능함
 
@@ -82,12 +83,12 @@ gulp.task
 작업 정의 (실행 단위)
 
 > **문법**
-gulp.task(name [, deps, fn])
-- name : 작업 정의명 (호출하는데 이용)
+gulp.task(name [, `deps`, `fn`])
+- `name` : 작업 정의명 (호출하는데 이용)
     + 'default' 는 기본 실행 task
-- deps : `Array` fn 함수 실행전 task 작업 목록
-- fn : 함수명 지정
-- fn.description : 실행시 함수명
+- `deps` : `Array` fn 함수 실행전 task 작업 목록
+- `fn` : 함수명 지정
+- `fn.description` : 실행시 함수명
 
     + 파이프를 저장함
 
