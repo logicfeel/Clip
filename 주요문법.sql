@@ -23,9 +23,22 @@
 USE [LMS]						-- 사용 DB명 설정
 GO
 
+/*
+NULL 과 비교 기능을 사용하기 위해선 ON 으로 설정 필요
+IF a IS NULL <= 기능 확일을 위해서 
+> OFF 일 경우 비교는 결과는 모두 false 
+*/
 SET ANSI_NULLS ON
 GO
 
+/*
+ON : 
+	- 개체이름 식별자 : "", []  2가지 사용가능
+	- 리터럴 문자열 구분자 : '' 만 사용가능
+OFF :
+	- 개체이름 식별자 :  [] 만 사용가능
+	- 리터럴 문자열 구분자 : '', "" 사용가능
+*/
 SET QUOTED_IDENTIFIER ON
 GO
 
