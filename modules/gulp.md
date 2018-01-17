@@ -28,27 +28,49 @@ gulp.src(`folder`).pipe(`dist`)   : 파이프 (연결)
 
 
 ## 기타 API
+- gulp.symlink  	: 심볼릭 파일 쓰기
+- gulp.lastRun  	: 마지막 성공한 스템프 가져오기
+- gulp.parallel 	: 병렬 작업 처리
+- gulp.series		: 순차 작업 처리
+- gulp.tree			: 작업트리 가져옴
+- gulp.registy  	: 작업레지스틀 설정
 
-- gulp.symlink  : 심볼릭 파일 쓰기
-- gulp.lastRun  : 마지막 성공한 스템프 가져오기
-- gulp.parallel : 병렬 작업 처리
-- gulp.series	: 순차 작업 처리
-- gulp.tree		: 작업트리 가져옴
-- gulp.registy  : 작업레지스틀 설정
 
 
 ## 주요 플러그인
-    - gulp-concat()		: 파일 합치기
-    - gulp-uglify()		: 코드 암호화
-    - gulp-minify()		: 파일 최소화
-    - gulp-sass()		: SASS CSS 컴파일
-    - gulp-rename()		: 파일명 변경
+    - gulp-concat()			: 파일 합치기
+
+    - gulp-uglify()			: 코드 암호화
+
+    - gulp-minify()			: 파일 최소화
+
+    - gulp-sass()			: SASS CSS 컴파일
+
+    - gulp-rename()			: 파일명 변경
 		+ 사용법 : 완료
-    - gulp-repalce()	: 교체
-    - gulp-sourcemaps()	: 파일 지도 (구조) 파일 만들기
+
+    - gulp-repalce()		: 교체
+
+    - gulp-sourcemaps()		: 파일 지도 (구조) 파일 만들기
 		+ 사용법 : TODO
-    - gulp-if()		: 조건문
-	- lazypipe()		: gulp의 파이프 연결
+
+	- lazypipe()			: gulp의 파이프 연결
+
+	- gulp-sync() 			: 동기화 
+
+	- lazypipe()			: pipe 연결 (함수)
+
+	- gulp-json-sort()		: json 파일 정렬
+
+	- gulp-if()				: 분리 처리
+		+ https://www.npmjs.com/package/gulp-if
+
+	- gulp-group-concat()	: 그룹별 파일 합침		
+		+ https://www.npmjs.com/package/gulp-group-concat
+		+ 주의! : gulp.dest 이전에 사용해야함
+
+## 파악전 플러그인 TODO:
+	- Pleeease			: CSS 관련 처리
 
 ## 참조 사이트
 	- https://regexr.com/ : 정규표현식 테스트
