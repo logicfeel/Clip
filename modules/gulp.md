@@ -69,6 +69,10 @@ gulp.src(`folder`).pipe(`dist`)   : 파이프 (연결)
 		+ https://www.npmjs.com/package/gulp-group-concat
 		+ 주의! : gulp.dest 이전에 사용해야함
 
+	- gulp-clean()			: 폴더 및 파일 제거
+		+ https://github.com/peter-vilja/gulp-clean
+
+
 ## 파악전 플러그인 TODO:
 	- Pleeease			: CSS 관련 처리
 
