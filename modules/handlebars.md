@@ -28,7 +28,7 @@
 | **`객체`**     | {*Data*}        | {{ `객체명` }} |
 | **`핼퍼(메소드)`** | registerHelper('헬퍼명', function([, args...]) | {{ `헬퍼명` [args...]) }} | |
 | **`블럭표현식`**   | registerHelper('블럭명', function([items, ]options)) | {{# `블럭명` [args...] }} 기본내용 {{/`블럭명`}} | |
-| **`조각(부분)`**  | registerPartial('조각명', ' `조각내용 | File` ' ) | {{> `조각명` [`전달객체, 파라메터` ] }}   | |
+| **`조각(부분)`**  | registerPartial('조각명', ' `조각내용 or File` ' ) | {{> `조각명` [`전달객체, 파라메터` ] }}   | |
 |                 | {{#*inline }} `조각내용(인라인)` {{/inline}} | {{#> `조각명` [`전달객체, 파라메터` ] }} `조각재정의` {{/`조각명`}} | 오버라이딩에 활용 |
 | **`데코레이션`**   | registerDecorator('foo', function((prgm, props, contr, ctxt)))  | [ *내용뒤* ] {{*`데코레이션명`}} | 해퍼선택 및 재정의 |
 
