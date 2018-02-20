@@ -26,3 +26,5 @@
   - Regex : 정규표현식
 
 
+  - ES6 (자바스크립트 )
+    http://es6-features.org/#ExpressionBodies
