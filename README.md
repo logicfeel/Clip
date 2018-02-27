@@ -15,7 +15,7 @@
  
   - `npm update  <패키지명> --save-dev ` : 패키지.devDependencies 목록을 갱신(설치) 함
 
-  -` npm run <스크립트명>` : 패키지.scripts 의 명령을 실행함
+  - ` npm run <스크립트명>` : 패키지.scripts 의 명령을 실행함
 
 ```bash
 npm install (with no args, in package dir)
