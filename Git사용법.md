@@ -22,14 +22,14 @@
 
 ## 브런치명 변경 
 
-`git branch -m  auto_1.x.x  1.x.x-auto`
+- 기존 이름 변경 (auto_1.x.x   >> 1.x.x-auto)
+> `git branch -m  auto_1.x.x  1.x.x-auto`
 
-`git push origin 1.x.x-auto`
+- 변경이름 보내기(서버)
+> `git push origin 1.x.x-auto`
 
+- 브런치 내역 조회
+> `git remote show origin`  
 
-## 브런치명 삭제
-
-
-`git push origin :auto_1.x.x`
-
-`git push origin HEAD:auto_1.x.x` 삭제
+- 기존 브런치명 삭제
+>`git push origin :auto_1.x.x`
