@@ -1,6 +1,9 @@
 # handlebars 템플릿 도구
 > https://cloudfour.com/thinks/the-hidden-power-of-handlebars-partials/  : 조각 샘플
+>
 > https://www.sitepoint.com/using-inline-partials-and-decorators-with-handlebars-4-0/ : 인라인 조각 및 데코레이션 활용
+>
+> http://tryhandlebarsjs.com/ : 시연 및 helper 사례
 
 
 ## 표현식
