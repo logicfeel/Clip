@@ -25,23 +25,23 @@
 
 - getter/setter
 
-## 상속 : Node (Server Side)
+## OOP : Node (Server Side)
 ```javascript
 
 'use strict';
 
 var util = require('util');
 
-function 대상클래스(전달변수) {
+function 클래스(전달변수) {
     부모클래스.call(this, 전달변수);
     
 }
-util.inherits(대상클래스, 부모클래스);
+util.inherits(클래스, 부모클래스);
 
-대상클래스.prototype.메소드 = function() {
+클래스.prototype.메소드 = function() {
 };
 
-대상클래스.정적_메소드 = function() {
+클래스.정적_메소드 = function() {
 };
 
 ```  
