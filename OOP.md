@@ -44,7 +44,7 @@ util.inherits(클래스, 부모클래스);
 클래스.정적_메소드 = function() {
 };
 
-```  
+```
 
 # 메소드
 ```javascript
